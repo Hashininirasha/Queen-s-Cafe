@@ -39,12 +39,15 @@ public class Back_Day extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+	
 		
 		JLabel lblNewLabel = new JLabel("");
 		Image img=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
-		lblNewLabel.setIcon(new ImageIcon(img));
-		lblNewLabel.setBounds(-239, 0, 944, 388);
+		lblNewLabel.setBounds(-266, 0, 944, 388);
 		contentPane.add(lblNewLabel);
+		lblNewLabel.setIcon(new ImageIcon(img));
+		Image img1=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
+		lblNewLabel.setIcon(new ImageIcon(img1));
 		
 		
 	}
