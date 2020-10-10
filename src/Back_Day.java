@@ -7,6 +7,10 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import java.awt.Font;
+import java.awt.Color;
+import java.awt.SystemColor;
+import javax.swing.JButton;
 
 public class Back_Day extends JFrame {
 
@@ -39,15 +43,27 @@ public class Back_Day extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-	
-		
-		JLabel lblNewLabel = new JLabel("");
 		Image img=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
-		lblNewLabel.setBounds(-266, 0, 944, 388);
-		contentPane.add(lblNewLabel);
-		lblNewLabel.setIcon(new ImageIcon(img));
 		Image img1=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
-		lblNewLabel.setIcon(new ImageIcon(img1));
+		
+		JButton btnNewButton = new JButton("Order Your's One \u25B6");
+		btnNewButton.setForeground(Color.BLUE);
+		btnNewButton.setFont(new Font("Yu Gothic", Font.BOLD, 13));
+		btnNewButton.setBounds(509, 306, 159, 44);
+		contentPane.add(btnNewButton);
+		
+			
+			JLabel lblNewLabel = new JLabel("User ");
+			lblNewLabel.setBounds(-266, 0, 944, 388);
+			contentPane.add(lblNewLabel);
+			lblNewLabel.setIcon(new ImageIcon(img));
+			lblNewLabel.setIcon(new ImageIcon(img1));
+			
+			JLabel lblNewLabel_1 = new JLabel("New label");
+			Image img2=new ImageIcon(this.getClass().getResource("/Screenshot%20(9).png")).getImage();
+			lblNewLabel.setIcon(new ImageIcon(img2));
+			lblNewLabel_1.setBounds(509, 306, 159, 44);
+			contentPane.add(lblNewLabel_1);
 		
 		
 	}
