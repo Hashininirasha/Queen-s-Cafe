@@ -32,6 +32,7 @@ public class Back_Day extends JFrame {
 	 * Create the frame.
 	 */
 	public Back_Day() {
+		setTitle("Queen's Cafe \uD83D\uDC96");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 694, 427);
 		contentPane = new JPanel();
@@ -42,7 +43,7 @@ public class Back_Day extends JFrame {
 		JLabel lblNewLabel = new JLabel("");
 		Image img=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
 		lblNewLabel.setIcon(new ImageIcon(img));
-		lblNewLabel.setBounds(10, 11, 658, 377);
+		lblNewLabel.setBounds(-239, 0, 944, 388);
 		contentPane.add(lblNewLabel);
 		
 		
