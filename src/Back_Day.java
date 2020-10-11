@@ -44,26 +44,18 @@ public class Back_Day extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		Image img=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
-		Image img1=new ImageIcon(this.getClass().getResource("/00IPLR68C6436F30E3D7E6px.jpg")).getImage();
 		
-		JButton btnNewButton = new JButton("Order Your's One \u25B6");
-		btnNewButton.setForeground(Color.BLUE);
-		btnNewButton.setFont(new Font("Yu Gothic", Font.BOLD, 13));
-		btnNewButton.setBounds(509, 306, 159, 44);
+		JButton btnNewButton = new JButton("Go to Menu ");
+		btnNewButton.setFont(new Font("Matura MT Script Capitals", Font.PLAIN, 17));
+		btnNewButton.setBounds(459, 290, 176, 33);
 		contentPane.add(btnNewButton);
 		
-			
-			JLabel lblNewLabel = new JLabel("User ");
-			lblNewLabel.setBounds(-266, 0, 944, 388);
-			contentPane.add(lblNewLabel);
-			lblNewLabel.setIcon(new ImageIcon(img));
-			lblNewLabel.setIcon(new ImageIcon(img1));
-			
-			JLabel lblNewLabel_1 = new JLabel("New label");
-			Image img2=new ImageIcon(this.getClass().getResource("/Screenshot%20(9).png")).getImage();
-			lblNewLabel.setIcon(new ImageIcon(img2));
-			lblNewLabel_1.setBounds(509, 306, 159, 44);
-			contentPane.add(lblNewLabel_1);
+		JLabel lblNewLabel = new JLabel("");
+		lblNewLabel.setIcon(new ImageIcon(img));
+		lblNewLabel.setBounds(-213, 0, 891, 377);
+		contentPane.add(lblNewLabel);
+		
+		
 		
 		
 	}
